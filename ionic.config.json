@@ -1,5 +1,7 @@
 {
-  "name": "Prova_Covid",
-  "integrations": {},
+  "name": "Prova_A2",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

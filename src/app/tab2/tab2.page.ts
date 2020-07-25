@@ -9,4 +9,9 @@ export class Tab2Page {
 
   constructor() {}
 
+  sair(){
+    navigator['app'].exitApp();
+  }
+  
+
 }

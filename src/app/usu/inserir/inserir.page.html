@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/login" style="color:#FFFFFF"></ion-back-button>
+    </ion-buttons>
+    <ion-title style="--color:#FFFFFF;">Criar Conta</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+
+  <ion-img [src]="covid"></ion-img>
+
+  <form>
+    <div id="container">
+      <ion-item>
+        <ion-label position="stacked">Email</ion-label>
+        <ion-input name="login" type="email" [(ngModel)]="email"></ion-input>
+      </ion-item>
+
+      <ion-item style="margin-top:2vh">
+        <ion-label position="stacked">Senha</ion-label>
+        <ion-input name="senha" type="password" [(ngModel)]="senha"></ion-input>
+      </ion-item>
+
+      <ion-button shape="round" style="margin-top: 5vh;" type="submit" (click)="insereUsuario()">Criar</ion-button>
+
+    </div>
+  </form>
+</ion-content>

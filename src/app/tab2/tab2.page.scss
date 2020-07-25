@@ -1,0 +1,19 @@
+ion-toolbar {
+    --background:#FF5722;
+    color: white;
+}
+ion-content{
+    --background: #FF9800;
+}
+
+.Cards{
+    width: 97%; 
+    margin: 15px auto;
+  }
+  
+  .bgCards{
+    background-repeat: no-repeat;
+    background-size:60%;
+    background-position:right;
+
+  }
